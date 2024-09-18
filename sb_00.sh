@@ -13,15 +13,15 @@ reading() { read -p "$(red "$1")" "$2"; }
 export LC_ALL=C
 USERNAME=$(whoami)
 HOSTNAME=$(hostname)
-export UUID=${UUID:-'bc97f674-c578-4940-9234-0a1da46041b9'}
+export UUID=${UUID:-'1b63059b-d903-4f51-b293-ddba5cd9bac4'}
 export NEZHA_SERVER=${NEZHA_SERVER:-''} 
 export NEZHA_PORT=${NEZHA_PORT:-'5555'}     
 export NEZHA_KEY=${NEZHA_KEY:-''} 
-export ARGO_DOMAIN=${ARGO_DOMAIN:-''}   
-export ARGO_AUTH=${ARGO_AUTH:-''}
-export VMESS_PORT=${VMESS_PORT:-'40000'}
-export TUIC_PORT=${TUIC_PORT:-'50000'}
-export HY2_PORT=${HY2_PORT:-'60000'}
+export ARGO_DOMAIN=${ARGO_DOMAIN:-'vmss.xsvpn.sbs'}   
+export ARGO_AUTH=${ARGO_AUTH:-'eyJhIjoiZjEyODA2ZjU0Y2NjYmQ3NjMwYjliZjg4ZDllOWMzYjYiLCJ0IjoiYmY5YTViODgtOTkwNS00NzA0LTg2YjEtN2E5MTI3MjIyYzkxIiwicyI6IllUSTJNMlJsTmpNdE5HSTJNUzAwTXpneExUZ3lNVFl0TkdVNVptVmhPRGN3TXpZeCJ9'}
+export VMESS_PORT=${VMESS_PORT:-'44653'}
+export TUIC_PORT=${TUIC_PORT:-'44653'}
+export HY2_PORT=${HY2_PORT:-'47834'}
 export CFIP=${CFIP:-'www.visa.com.tw'} 
 export CFPORT=${CFPORT:-'443'} 
 
